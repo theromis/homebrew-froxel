@@ -3,7 +3,7 @@
 class Froxel < Formula
   desc "Voxel editor with a path tracer and an MCP server"
   homepage "https://github.com/theromis/Froxel"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   livecheck do
@@ -16,11 +16,11 @@ class Froxel < Formula
   on_linux do
     on_intel do
       url "https://github.com/theromis/Froxel/releases/download/v#{version}/froxel-#{version}-linux-x86_64.tar.gz"
-      sha256 "92db92461c2d0317572354b0a31e033ddd8a5a7d4f2a2e86c8cfb0d820f14814"
+      sha256 "9b5d76fe6e7bf28d546d68f8dec235f24293391c75765725c18a3337e36dd427"
     end
     on_arm do
       url "https://github.com/theromis/Froxel/releases/download/v#{version}/froxel-#{version}-linux-aarch64.tar.gz"
-      sha256 "27d52aa4fec281a1dd771603b12f74d5553beb7e668febf1bbe0c827444bbad0"
+      sha256 "3f3032ca08b8d4729f6fa424e1fcf43b91c2b92297fbbb21a5aafc45c77107bf"
     end
   end
 
